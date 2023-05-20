@@ -1,0 +1,254 @@
+body{
+    background-image: url(./mapa.fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 700%;
+    margin: -1%;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    margin: 1%;
+}
+.arriba{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: -1%;
+    margin-left: -4%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    margin: 0 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lugar{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: -1%;
+}
+.kio{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    margin: 0 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mapas{
+    width: 300%;
+    display: contents;
+    justify-content: center;
+    height: 350vh;
+}
+
+.mapas figure{
+    position: relative;
+    width: 850px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px
+    rgba(0,0,0,0.50);
+    cursor: pointer;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.mapas figure .we{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 110%;
+    background-color: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    text-align: center;
+}
+figure:hover .we{
+    transform: scale(1.3);
+}
+figure:hover >.capa{
+    opacity: 1;
+    visibility: visible;
+}    
+.mapas figure:hover .capa h2{
+    color: white;
+    font-size: 700%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.mapas figure:hover .capa h3{
+    color: white;
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+    margin: 90px;
+    margin-top: 2px;
+    
+}
+
+.yu{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 10%;
+}
+.relleno.yu{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu1{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 56%;
+}
+.relleno.yu1{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu2{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 100%;
+}
+.relleno.yu2{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu3{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 145%;
+}
+.relleno.yu3{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu4{
+    position: absolute;
+    width: 35%;
+    display: flexbox;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 190%;
+}
+.relleno.yu4{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu5{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 235%;
+}
+.relleno.yu5{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu6{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 278%;
+}
+.relleno.yu6{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+.yu7{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 323%;
+}
+.relleno.yu7{
+    position: relative;
+    width: 50px;
+    height: 70px;
+
+
+}
+.yu8{
+    position: absolute;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 55%;
+    margin-top: 368%;
+}
+.relleno.yu8{
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+footer{
+    color: white;
+    background-color: red;
+    margin: -1%;
+    text-align: center;
+    padding-top: 5px;
+}
+header{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    margin: -1%;
+    margin-left: 5%;
+}
